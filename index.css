@@ -1,4 +1,4 @@
-
+/* SECTION 1 */
 body{
     margin: 0;
     padding: 0;
@@ -57,4 +57,96 @@ body{
     height: 25px;
     width: 2px;
     background-color: rgb(168, 168, 168);
+}
+
+
+/* SECTION 2 */
+
+.rectangle{
+    height: 2px;
+    background-color: #008ECC;
+    border-radius: 10px;
+}
+
+.tooggle{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    background-color: #F3F9FB;
+    width: max-content;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.tooggle:hover{
+    background-color: #008ECC;
+    cursor: pointer;
+}
+
+.tooggle:hover .rectangle{
+    background-color: white;
+}
+
+.un{
+    width: 20px;
+}
+
+.deux{
+    width: 15px;
+}
+
+.trois{
+    width: 10px;
+}
+
+
+/* SECTION 3 */
+
+.section3{
+    width: 80%;
+    background-color: #212844;
+    height: 150px;
+
+}
+
+.section3maman{
+    display: flex;
+    justify-content: center;
+}
+
+.rondgauche{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: -5%;
+    background-color: #F3F9FB;
+}
+
+.ronddroite{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    right: -5%;
+    background-color: #F3F9FB;
+
+
+}
+
+.section3{
+    position: relative
 }
