@@ -1,0 +1,60 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enfant21{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+.enfant1 p{
+    color: gray;
+    font-family: "DM Sans", sans-serif;
+    line-height: 14px;
+
+}
+
+.enfant22{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+
+}
+
+.enfant23{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+
+}
+.gray{
+    color: gray;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(229, 229, 229);
+}
+
+.enfant2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.ligne{
+    height: 25px;
+    width: 2px;
+    background-color: rgb(168, 168, 168);
+}
